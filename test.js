@@ -35,7 +35,7 @@
               <div class="full-start__pg hide"></div>
               <div class="full-start__status hide"></div>
             </div>
-            <div class="full-start-new__details"></div>
+            <!-- <div class="full-start-new__details"></div> -->
             <div class="full-start-new__reactions">
               <div>#{reactions_none}</div>
             </div>
