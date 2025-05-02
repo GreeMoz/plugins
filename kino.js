@@ -29,6 +29,16 @@
         function addHelloToHeader() {
             let hello = $('<div class="card selector layer--visible layer--render card--loaded"><div class="card__view"><img src="http://tmdbimg.rootu.top/t/p/w500//tgSmrSZHMtI0PFBiDIrjfRV3qAm.jpg" class="card__img"><div class="card__icons"><div class="card__icons-inner"></div></div><div class="card__vote">6.6</div></div><div class="card__title">Опустошение</div><div class="card__age">2025</div></div>');
             $('.head .head__body').append(hello); // Вставляем в левую часть шапки
+
+            html$g = Template.get('head');
+            console.log(html$g);
+            html$g.find('.card--loaded').on('hover:enter', function () {
+                
+            console.log("Testtt");
+              ParentalControl.personal('settings', function () {
+                Controller.toggle('settings');
+              }, false, true);
+            });
         }
 
         // Дождемся готовности приложения
