@@ -27,7 +27,7 @@
 
         // Функция добавляет надпись Hello в шапку
         function addHelloToHeader() {
-            let hello = $('<div style="color: #fff; margin-left: 1em; font-weight: bold;">Hello</div><img src="https://svgsilh.com/svg/1801287.svg" width="200" height="200" alt="Icon">');
+            let hello = $('<div class="card selector layer--visible layer--render card--loaded"><div class="card__view"><img src="http://tmdbimg.rootu.top/t/p/w500//tgSmrSZHMtI0PFBiDIrjfRV3qAm.jpg" class="card__img"><div class="card__icons"><div class="card__icons-inner"></div></div><div class="card__vote">6.6</div></div><div class="card__title">Опустошение</div><div class="card__age">2025</div></div>');
             $('.head .head__body').append(hello); // Вставляем в левую часть шапки
         }
 
