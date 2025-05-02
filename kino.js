@@ -27,7 +27,7 @@
 
         // Функция добавляет надпись Hello в шапку
         function addHelloToHeader() {
-            let hello = $('<div class="selector card--loaded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 64 64" aria-hidden="true" role="img"> <rect x="10" y="32" width="44" height="10" rx="5" ry="5" fill="#fff" /><circle cx="20" cy="28" r="8" fill="#fff" /><circle cx="32" cy="24" r="8" fill="#fff" /><circle cx="44" cy="28" r="8" fill="#fff" /></svg></div>');
+            let hello = $('<div class="head__action head__logo-icon selector card--loaded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 64 64" aria-hidden="true" role="img"> <rect x="10" y="32" width="44" height="10" rx="5" ry="5" fill="#fff"></rect><circle cx="20" cy="28" r="8" fill="#fff"></circle><circle cx="32" cy="24" r="8" fill="#fff"></circle><circle cx="44" cy="28" r="8" fill="#fff"></circle></svg></div>');
             $('.head .head__body').append(hello); // Вставляем в левую часть шапки
 
             $('.head .card--loaded').on('hover:enter', function () {
