@@ -27,7 +27,7 @@
 
         // Функция добавляет надпись Hello в шапку
         function addHelloToHeader() {
-            let hello = $('<div style="color: #fff; margin-left: 1em; font-weight: bold;">Hello</div>');
+            let hello = $('<div style="color: #fff; margin-left: 1em; font-weight: bold;">Hello</div><img src="https://svgsilh.com/svg/1801287.svg" width="200" height="200" alt="Icon">');
             $('.head .head__body').append(hello); // Вставляем в левую часть шапки
         }
 
