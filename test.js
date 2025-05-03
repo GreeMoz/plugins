@@ -64,7 +64,7 @@
     var style = `
       <style>
         .lampac--button {
-          // order: -1;
+          order: -1;
           margin-right: 0.75em;
         }
       </style>
