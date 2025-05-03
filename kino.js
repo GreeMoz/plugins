@@ -69,18 +69,18 @@
 
             Lampa.Listener.follow('full', function(e) {
               if (e.type == 'complite') {
+                  setTimeout(function() {
                   Lampa.Controller.collectionFocus($('.lampac--button'));
-                //   setTimeout(function() {
                 // $('.lampac--button').prependTo('.full-start-new__buttons');
-                //   }, 2000);
+                  }, 100);
               }
             });
             try {
               if (Lampa.Activity.active().component == 'full') {
+                  setTimeout(function() {
                   Lampa.Controller.collectionFocus($('.lampac--button'));
-                //   setTimeout(function() {
                 // $('.lampac--button').prependTo('.full-start-new__buttons');
-                //   }, 2000);
+                  }, 100);
               }
             } catch (e) {}
         }
